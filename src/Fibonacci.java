@@ -14,12 +14,12 @@ public class Fibonacci {
 
         System.out.println("Первые " + n + " чисел Фибоначчи:");
 
-        int first = 0, second = 1;
+        long first = 0, second = 1;
 
         for (int i = 1; i <= n; i++) {
             System.out.print(first + " ");
 
-            int next = first + second;
+            long next = first + second;
             first = second;
             second = next;
         }
